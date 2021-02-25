@@ -1,0 +1,82 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(150, 148, 148);
+}
+
+p.a {
+    padding: 10px;
+    position: absolute;
+    top: 10;
+    left: 15%;
+    width: 80%;
+    height: 15px;
+    border: brown;
+    background-color: burlywood;
+    text-align: center;
+}
+/* B, en el centro */
+p.b {
+
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    z-index: 2;
+    border: darkgreen;
+    background-color: darkseagreen;
+    text-align: center;
+}
+/* C, Arriba izquierda */
+p.c {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: yellow;
+    background-color: yellowgreen;
+    text-align: left;
+}
+/* D, Arriba derecha */
+p.d {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: gray;
+    background-color: grey;
+    text-align: right;
+}
+/* E, Abajo izq */
+p.e {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: grey;
+    background-color: hotpink;
+    text-align: left;
+}
+/* F, Abajo derecha */
+p.f {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: brown;
+    background-color: burlywood;
+    text-align: right;
+}
+
+p:hover {
+    z-index: 3;
+}
